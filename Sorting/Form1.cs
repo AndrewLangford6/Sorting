@@ -17,9 +17,9 @@ namespace Sorting
         int loopCounter;
         int comparisonCounter;
         int shiftCounter;
-        int[] selectionSorted = new int[6];
-        int[] bubbleSorted = new int[6];
-        int[] insertionSorted = new int[6];
+        int[] selectionSort = new int[6];
+        int[] bubbleSort = new int[6];
+        int[] insertionSort = new int[6];
 
         Random rando = new Random();
         int numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX;
@@ -30,49 +30,51 @@ namespace Sorting
         {
             InitializeComponent();
 
-            numberONE = rando.Next(1, 7);
-            numberTWO = rando.Next(1, 7);
-            numberTHREE = rando.Next(1, 7);
-            numberFOUR = rando.Next(1, 7);
-            numberFIVE = rando.Next(1, 7);
-            numberSIX = rando.Next(1, 7);
+            numberONE = rando.Next(-1000, 1000);
+            numberTWO = rando.Next(-1000, 1000);
+            numberTHREE = rando.Next(-1000, 1000);
+            numberFOUR = rando.Next(-1000, 1000);
+            numberFIVE = rando.Next(-1000, 1000);
+            numberSIX = rando.Next(-1000, 1000);
 
             int[] originalArray = { numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX };
 
-            originalArray.CopyTo(selectionSorted, 0);
-            originalArray.CopyTo(bubbleSorted, 0);
-            originalArray.CopyTo(insertionSorted, 0);
+            originalArray.CopyTo(selectionSort, 0);
+            originalArray.CopyTo(bubbleSort, 0);
+            originalArray.CopyTo(insertionSort, 0);
 
-            selection(selectionSorted);
+            
+
+            bubble(bubbleSort);
             loopCounter = 0;
             comparisonCounter = 0;
             shiftCounter = 0;
 
-            bubble(bubbleSorted);
+            selection(selectionSort);
             loopCounter = 0;
             comparisonCounter = 0;
             shiftCounter = 0;
 
-            insertion(insertionSorted);
+            insertion(insertionSort);
 
-            originalOutput.Text = selectionSortedOutput.Text = "";
+            ogLabel.Text = selLabel.Text = "";
 
             foreach (int i in originalArray)
             {
-                originalOutput.Text += i + "\n";
+                ogLabel.Text += i + ", ";
             }
 
-            foreach (int i in selectionSorted)
+            foreach (int i in selectionSort)
             {
-                selectionSortedOutput.Text += i + "\n";
+                selLabel.Text += i + ", ";
             }
-            foreach (int i in bubbleSorted)
+            foreach (int i in bubbleSort)
             {
-                bubbleSortedOutput.Text += i + "\n";
+                bubLabel.Text += i + ", ";
             }
-            foreach (int i in insertionSorted)
+            foreach (int i in insertionSort)
             {
-                insertionSortedOutput.Text += i + "\n";
+                insLabel.Text += i + ", ";
             }
         }
         public void selection(int[] tempArray)
@@ -80,8 +82,8 @@ namespace Sorting
             int temp;
 
             //starting stopwatch
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
+            Stopwatch myWatch = new Stopwatch();
+            myWatch.Start();
 
             for (int i = 0; i < tempArray.Length; i++)
             {
@@ -100,8 +102,8 @@ namespace Sorting
                 }
             }
             //ending stopwatch
-            stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
+            myWatch.Stop();
+            TimeSpan ts = myWatch.Elapsed;
             string elapsedTime = Convert.ToString(ts.TotalMilliseconds);
 
             selectionShiftOutputLabel.Text = Convert.ToString(shiftCounter);
