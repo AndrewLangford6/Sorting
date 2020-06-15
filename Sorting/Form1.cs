@@ -24,7 +24,10 @@ namespace Sorting
         Random rando = new Random();
         int numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX, numberSEVEN, numberEIGHT;
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
 
         public Form1()
         {
