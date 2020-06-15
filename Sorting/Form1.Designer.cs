@@ -71,7 +71,7 @@
             this.insertionTimerOutput.AutoSize = true;
             this.insertionTimerOutput.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertionTimerOutput.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.insertionTimerOutput.Location = new System.Drawing.Point(445, 368);
+            this.insertionTimerOutput.Location = new System.Drawing.Point(453, 440);
             this.insertionTimerOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.insertionTimerOutput.Name = "insertionTimerOutput";
             this.insertionTimerOutput.Size = new System.Drawing.Size(0, 15);
@@ -82,19 +82,19 @@
             this.timeTakenLabel3.AutoSize = true;
             this.timeTakenLabel3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeTakenLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.timeTakenLabel3.Location = new System.Drawing.Point(272, 368);
+            this.timeTakenLabel3.Location = new System.Drawing.Point(280, 440);
             this.timeTakenLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.timeTakenLabel3.Name = "timeTakenLabel3";
-            this.timeTakenLabel3.Size = new System.Drawing.Size(144, 15);
+            this.timeTakenLabel3.Size = new System.Drawing.Size(105, 15);
             this.timeTakenLabel3.TabIndex = 107;
-            this.timeTakenLabel3.Text = "Time Taken (Milliseconds):";
+            this.timeTakenLabel3.Text = "Time Taken In MS:";
             // 
             // bubbleTimerOutput
             // 
             this.bubbleTimerOutput.AutoSize = true;
             this.bubbleTimerOutput.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bubbleTimerOutput.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bubbleTimerOutput.Location = new System.Drawing.Point(445, 252);
+            this.bubbleTimerOutput.Location = new System.Drawing.Point(453, 324);
             this.bubbleTimerOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bubbleTimerOutput.Name = "bubbleTimerOutput";
             this.bubbleTimerOutput.Size = new System.Drawing.Size(0, 15);
@@ -105,19 +105,19 @@
             this.timeTakenLabel2.AutoSize = true;
             this.timeTakenLabel2.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeTakenLabel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.timeTakenLabel2.Location = new System.Drawing.Point(272, 252);
+            this.timeTakenLabel2.Location = new System.Drawing.Point(280, 324);
             this.timeTakenLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.timeTakenLabel2.Name = "timeTakenLabel2";
-            this.timeTakenLabel2.Size = new System.Drawing.Size(144, 15);
+            this.timeTakenLabel2.Size = new System.Drawing.Size(105, 15);
             this.timeTakenLabel2.TabIndex = 105;
-            this.timeTakenLabel2.Text = "Time Taken (Milliseconds):";
+            this.timeTakenLabel2.Text = "Time Taken In MS:";
             // 
             // selectionTimerOutput
             // 
             this.selectionTimerOutput.AutoSize = true;
             this.selectionTimerOutput.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selectionTimerOutput.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.selectionTimerOutput.Location = new System.Drawing.Point(445, 130);
+            this.selectionTimerOutput.Location = new System.Drawing.Point(453, 202);
             this.selectionTimerOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.selectionTimerOutput.Name = "selectionTimerOutput";
             this.selectionTimerOutput.Size = new System.Drawing.Size(0, 15);
@@ -128,12 +128,12 @@
             this.timeTakenLabel1.AutoSize = true;
             this.timeTakenLabel1.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeTakenLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.timeTakenLabel1.Location = new System.Drawing.Point(272, 130);
+            this.timeTakenLabel1.Location = new System.Drawing.Point(280, 202);
             this.timeTakenLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.timeTakenLabel1.Name = "timeTakenLabel1";
-            this.timeTakenLabel1.Size = new System.Drawing.Size(144, 15);
+            this.timeTakenLabel1.Size = new System.Drawing.Size(105, 15);
             this.timeTakenLabel1.TabIndex = 103;
-            this.timeTakenLabel1.Text = "Time Taken (Milliseconds):";
+            this.timeTakenLabel1.Text = "Time Taken In MS:";
             // 
             // bubbleSortedLabel
             // 
@@ -143,9 +143,9 @@
             this.bubbleSortedLabel.Location = new System.Drawing.Point(29, 248);
             this.bubbleSortedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bubbleSortedLabel.Name = "bubbleSortedLabel";
-            this.bubbleSortedLabel.Size = new System.Drawing.Size(112, 15);
+            this.bubbleSortedLabel.Size = new System.Drawing.Size(160, 15);
             this.bubbleSortedLabel.TabIndex = 102;
-            this.bubbleSortedLabel.Text = "Bubble Sorted Array";
+            this.bubbleSortedLabel.Text = "Bubble Sorted Array Numbers";
             // 
             // bubLabel
             // 
@@ -166,9 +166,9 @@
             this.insertionSortedLabel.Location = new System.Drawing.Point(29, 352);
             this.insertionSortedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.insertionSortedLabel.Name = "insertionSortedLabel";
-            this.insertionSortedLabel.Size = new System.Drawing.Size(126, 15);
+            this.insertionSortedLabel.Size = new System.Drawing.Size(174, 15);
             this.insertionSortedLabel.TabIndex = 100;
-            this.insertionSortedLabel.Text = "Insertion Sorted Array";
+            this.insertionSortedLabel.Text = "Insertion Sorted Array Numbers";
             // 
             // insLabel
             // 
@@ -186,7 +186,7 @@
             this.bubbleLoopOutputLabel.AutoSize = true;
             this.bubbleLoopOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bubbleLoopOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bubbleLoopOutputLabel.Location = new System.Drawing.Point(445, 220);
+            this.bubbleLoopOutputLabel.Location = new System.Drawing.Point(453, 292);
             this.bubbleLoopOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bubbleLoopOutputLabel.Name = "bubbleLoopOutputLabel";
             this.bubbleLoopOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -197,7 +197,7 @@
             this.bubbleComparisonOutputLabel.AutoSize = true;
             this.bubbleComparisonOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bubbleComparisonOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bubbleComparisonOutputLabel.Location = new System.Drawing.Point(445, 236);
+            this.bubbleComparisonOutputLabel.Location = new System.Drawing.Point(453, 308);
             this.bubbleComparisonOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bubbleComparisonOutputLabel.Name = "bubbleComparisonOutputLabel";
             this.bubbleComparisonOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -208,7 +208,7 @@
             this.bubbleShiftOutputLabel.AutoSize = true;
             this.bubbleShiftOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bubbleShiftOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bubbleShiftOutputLabel.Location = new System.Drawing.Point(445, 204);
+            this.bubbleShiftOutputLabel.Location = new System.Drawing.Point(453, 276);
             this.bubbleShiftOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bubbleShiftOutputLabel.Name = "bubbleShiftOutputLabel";
             this.bubbleShiftOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -219,43 +219,43 @@
             this.numberofShiftsLabel2.AutoSize = true;
             this.numberofShiftsLabel2.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofShiftsLabel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofShiftsLabel2.Location = new System.Drawing.Point(272, 204);
+            this.numberofShiftsLabel2.Location = new System.Drawing.Point(280, 276);
             this.numberofShiftsLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofShiftsLabel2.Name = "numberofShiftsLabel2";
-            this.numberofShiftsLabel2.Size = new System.Drawing.Size(101, 15);
+            this.numberofShiftsLabel2.Size = new System.Drawing.Size(70, 15);
             this.numberofShiftsLabel2.TabIndex = 95;
-            this.numberofShiftsLabel2.Text = "Number of Shifts:";
+            this.numberofShiftsLabel2.Text = "# of Shifts:";
             // 
             // numberofComparisonsLabel2
             // 
             this.numberofComparisonsLabel2.AutoSize = true;
             this.numberofComparisonsLabel2.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofComparisonsLabel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofComparisonsLabel2.Location = new System.Drawing.Point(272, 236);
+            this.numberofComparisonsLabel2.Location = new System.Drawing.Point(280, 308);
             this.numberofComparisonsLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofComparisonsLabel2.Name = "numberofComparisonsLabel2";
-            this.numberofComparisonsLabel2.Size = new System.Drawing.Size(132, 15);
+            this.numberofComparisonsLabel2.Size = new System.Drawing.Size(101, 15);
             this.numberofComparisonsLabel2.TabIndex = 94;
-            this.numberofComparisonsLabel2.Text = "Number of Comparisons:";
+            this.numberofComparisonsLabel2.Text = "# of Comparisons:";
             // 
             // numberofLabelsLabel2
             // 
             this.numberofLabelsLabel2.AutoSize = true;
             this.numberofLabelsLabel2.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofLabelsLabel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofLabelsLabel2.Location = new System.Drawing.Point(272, 220);
+            this.numberofLabelsLabel2.Location = new System.Drawing.Point(280, 292);
             this.numberofLabelsLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofLabelsLabel2.Name = "numberofLabelsLabel2";
-            this.numberofLabelsLabel2.Size = new System.Drawing.Size(97, 15);
+            this.numberofLabelsLabel2.Size = new System.Drawing.Size(66, 15);
             this.numberofLabelsLabel2.TabIndex = 93;
-            this.numberofLabelsLabel2.Text = "Number of Loops:";
+            this.numberofLabelsLabel2.Text = "# of Loops:";
             // 
             // bubbleTitleLabel
             // 
             this.bubbleTitleLabel.AutoSize = true;
             this.bubbleTitleLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bubbleTitleLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bubbleTitleLabel.Location = new System.Drawing.Point(271, 183);
+            this.bubbleTitleLabel.Location = new System.Drawing.Point(279, 255);
             this.bubbleTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bubbleTitleLabel.Name = "bubbleTitleLabel";
             this.bubbleTitleLabel.Size = new System.Drawing.Size(44, 15);
@@ -267,7 +267,7 @@
             this.insertionLoopOutputLabel.AutoSize = true;
             this.insertionLoopOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertionLoopOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.insertionLoopOutputLabel.Location = new System.Drawing.Point(445, 336);
+            this.insertionLoopOutputLabel.Location = new System.Drawing.Point(453, 408);
             this.insertionLoopOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.insertionLoopOutputLabel.Name = "insertionLoopOutputLabel";
             this.insertionLoopOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -278,7 +278,7 @@
             this.insertionComparisonOutputLabel.AutoSize = true;
             this.insertionComparisonOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertionComparisonOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.insertionComparisonOutputLabel.Location = new System.Drawing.Point(445, 352);
+            this.insertionComparisonOutputLabel.Location = new System.Drawing.Point(453, 424);
             this.insertionComparisonOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.insertionComparisonOutputLabel.Name = "insertionComparisonOutputLabel";
             this.insertionComparisonOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -289,7 +289,7 @@
             this.insertionShiftOutputLabel.AutoSize = true;
             this.insertionShiftOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertionShiftOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.insertionShiftOutputLabel.Location = new System.Drawing.Point(445, 320);
+            this.insertionShiftOutputLabel.Location = new System.Drawing.Point(453, 392);
             this.insertionShiftOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.insertionShiftOutputLabel.Name = "insertionShiftOutputLabel";
             this.insertionShiftOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -300,43 +300,43 @@
             this.numberofShiftsLabel3.AutoSize = true;
             this.numberofShiftsLabel3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofShiftsLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofShiftsLabel3.Location = new System.Drawing.Point(272, 320);
+            this.numberofShiftsLabel3.Location = new System.Drawing.Point(280, 392);
             this.numberofShiftsLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofShiftsLabel3.Name = "numberofShiftsLabel3";
-            this.numberofShiftsLabel3.Size = new System.Drawing.Size(101, 15);
+            this.numberofShiftsLabel3.Size = new System.Drawing.Size(70, 15);
             this.numberofShiftsLabel3.TabIndex = 88;
-            this.numberofShiftsLabel3.Text = "Number of Shifts:";
+            this.numberofShiftsLabel3.Text = "# of Shifts:";
             // 
             // numberofComparisonsLabel3
             // 
             this.numberofComparisonsLabel3.AutoSize = true;
             this.numberofComparisonsLabel3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofComparisonsLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofComparisonsLabel3.Location = new System.Drawing.Point(272, 352);
+            this.numberofComparisonsLabel3.Location = new System.Drawing.Point(280, 424);
             this.numberofComparisonsLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofComparisonsLabel3.Name = "numberofComparisonsLabel3";
-            this.numberofComparisonsLabel3.Size = new System.Drawing.Size(132, 15);
+            this.numberofComparisonsLabel3.Size = new System.Drawing.Size(101, 15);
             this.numberofComparisonsLabel3.TabIndex = 87;
-            this.numberofComparisonsLabel3.Text = "Number of Comparisons:";
+            this.numberofComparisonsLabel3.Text = "# of Comparisons:";
             // 
             // numberofLabelsLabel3
             // 
             this.numberofLabelsLabel3.AutoSize = true;
             this.numberofLabelsLabel3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofLabelsLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofLabelsLabel3.Location = new System.Drawing.Point(272, 336);
+            this.numberofLabelsLabel3.Location = new System.Drawing.Point(280, 408);
             this.numberofLabelsLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofLabelsLabel3.Name = "numberofLabelsLabel3";
-            this.numberofLabelsLabel3.Size = new System.Drawing.Size(97, 15);
+            this.numberofLabelsLabel3.Size = new System.Drawing.Size(66, 15);
             this.numberofLabelsLabel3.TabIndex = 86;
-            this.numberofLabelsLabel3.Text = "Number of Loops:";
+            this.numberofLabelsLabel3.Text = "# of Loops:";
             // 
             // insertionTitleLabel
             // 
             this.insertionTitleLabel.AutoSize = true;
             this.insertionTitleLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertionTitleLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.insertionTitleLabel.Location = new System.Drawing.Point(271, 299);
+            this.insertionTitleLabel.Location = new System.Drawing.Point(279, 371);
             this.insertionTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.insertionTitleLabel.Name = "insertionTitleLabel";
             this.insertionTitleLabel.Size = new System.Drawing.Size(58, 15);
@@ -348,7 +348,7 @@
             this.selectionLoopOutputLabel.AutoSize = true;
             this.selectionLoopOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selectionLoopOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.selectionLoopOutputLabel.Location = new System.Drawing.Point(445, 98);
+            this.selectionLoopOutputLabel.Location = new System.Drawing.Point(453, 170);
             this.selectionLoopOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.selectionLoopOutputLabel.Name = "selectionLoopOutputLabel";
             this.selectionLoopOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -359,7 +359,7 @@
             this.selectionComparisonOutputLabel.AutoSize = true;
             this.selectionComparisonOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selectionComparisonOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.selectionComparisonOutputLabel.Location = new System.Drawing.Point(445, 114);
+            this.selectionComparisonOutputLabel.Location = new System.Drawing.Point(453, 186);
             this.selectionComparisonOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.selectionComparisonOutputLabel.Name = "selectionComparisonOutputLabel";
             this.selectionComparisonOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -370,7 +370,7 @@
             this.selectionShiftOutputLabel.AutoSize = true;
             this.selectionShiftOutputLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selectionShiftOutputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.selectionShiftOutputLabel.Location = new System.Drawing.Point(445, 82);
+            this.selectionShiftOutputLabel.Location = new System.Drawing.Point(453, 154);
             this.selectionShiftOutputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.selectionShiftOutputLabel.Name = "selectionShiftOutputLabel";
             this.selectionShiftOutputLabel.Size = new System.Drawing.Size(0, 15);
@@ -381,19 +381,19 @@
             this.numberofShiftsLabel1.AutoSize = true;
             this.numberofShiftsLabel1.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofShiftsLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofShiftsLabel1.Location = new System.Drawing.Point(272, 82);
+            this.numberofShiftsLabel1.Location = new System.Drawing.Point(280, 154);
             this.numberofShiftsLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofShiftsLabel1.Name = "numberofShiftsLabel1";
-            this.numberofShiftsLabel1.Size = new System.Drawing.Size(101, 15);
+            this.numberofShiftsLabel1.Size = new System.Drawing.Size(70, 15);
             this.numberofShiftsLabel1.TabIndex = 81;
-            this.numberofShiftsLabel1.Text = "Number of Shifts:";
+            this.numberofShiftsLabel1.Text = "# of Shifts:";
             // 
             // numberofComparisonsLabel1
             // 
             this.numberofComparisonsLabel1.AutoSize = true;
             this.numberofComparisonsLabel1.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofComparisonsLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofComparisonsLabel1.Location = new System.Drawing.Point(272, 114);
+            this.numberofComparisonsLabel1.Location = new System.Drawing.Point(280, 186);
             this.numberofComparisonsLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofComparisonsLabel1.Name = "numberofComparisonsLabel1";
             this.numberofComparisonsLabel1.Size = new System.Drawing.Size(132, 15);
@@ -405,19 +405,19 @@
             this.numberofLabelsLabel1.AutoSize = true;
             this.numberofLabelsLabel1.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberofLabelsLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numberofLabelsLabel1.Location = new System.Drawing.Point(272, 98);
+            this.numberofLabelsLabel1.Location = new System.Drawing.Point(280, 170);
             this.numberofLabelsLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.numberofLabelsLabel1.Name = "numberofLabelsLabel1";
-            this.numberofLabelsLabel1.Size = new System.Drawing.Size(97, 15);
+            this.numberofLabelsLabel1.Size = new System.Drawing.Size(66, 15);
             this.numberofLabelsLabel1.TabIndex = 79;
-            this.numberofLabelsLabel1.Text = "Number of Loops:";
+            this.numberofLabelsLabel1.Text = "# of Loops:";
             // 
             // slectionTitleLabel
             // 
             this.slectionTitleLabel.AutoSize = true;
             this.slectionTitleLabel.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.slectionTitleLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.slectionTitleLabel.Location = new System.Drawing.Point(271, 61);
+            this.slectionTitleLabel.Location = new System.Drawing.Point(279, 133);
             this.slectionTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.slectionTitleLabel.Name = "slectionTitleLabel";
             this.slectionTitleLabel.Size = new System.Drawing.Size(59, 15);
@@ -432,9 +432,9 @@
             this.selectionSortedLabel.Location = new System.Drawing.Point(29, 142);
             this.selectionSortedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.selectionSortedLabel.Name = "selectionSortedLabel";
-            this.selectionSortedLabel.Size = new System.Drawing.Size(127, 15);
+            this.selectionSortedLabel.Size = new System.Drawing.Size(181, 15);
             this.selectionSortedLabel.TabIndex = 76;
-            this.selectionSortedLabel.Text = "Selection Sorted Array";
+            this.selectionSortedLabel.Text = "Selection Sorted Array Numberas";
             // 
             // originalLabel
             // 
@@ -444,9 +444,9 @@
             this.originalLabel.Location = new System.Drawing.Point(29, 42);
             this.originalLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.originalLabel.Name = "originalLabel";
-            this.originalLabel.Size = new System.Drawing.Size(83, 15);
+            this.originalLabel.Size = new System.Drawing.Size(131, 15);
             this.originalLabel.TabIndex = 75;
-            this.originalLabel.Text = "Original Array";
+            this.originalLabel.Text = "Original Array Numbers";
             // 
             // selLabel
             // 

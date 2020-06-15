@@ -17,12 +17,12 @@ namespace Sorting
         int loopCounter;
         int comparisonCounter;
         int shiftCounter;
-        int[] selectionSort = new int[6];
-        int[] bubbleSort = new int[6];
-        int[] insertionSort = new int[6];
+        int[] selectionSort = new int[8];
+        int[] bubbleSort = new int[8];
+        int[] insertionSort = new int[8];
 
         Random rando = new Random();
-        int numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX;
+        int numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX, numberSEVEN, numberEIGHT;
 
 
 
@@ -30,14 +30,17 @@ namespace Sorting
         {
             InitializeComponent();
 
+
             numberONE = rando.Next(-1000, 1000);
             numberTWO = rando.Next(-1000, 1000);
             numberTHREE = rando.Next(-1000, 1000);
             numberFOUR = rando.Next(-1000, 1000);
             numberFIVE = rando.Next(-1000, 1000);
             numberSIX = rando.Next(-1000, 1000);
+            numberSEVEN = rando.Next(-1000, 1000);
+            numberEIGHT = rando.Next(-1000, 1000);
 
-            int[] originalArray = { numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX };
+            int[] originalArray = { numberONE, numberTWO, numberTHREE, numberFOUR, numberFIVE, numberSIX, numberSEVEN, numberEIGHT };
 
             originalArray.CopyTo(selectionSort, 0);
             originalArray.CopyTo(bubbleSort, 0);
@@ -112,45 +115,6 @@ namespace Sorting
             selectionTimerOutput.Text = elapsedTime;
         }
 
-        public void bubble(int[] tempArray)
-        {
-            int bottom = tempArray.Length - 1;
-            int temp;
-            Boolean sw = true;
-
-            //starting stopwatch
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-
-            while (sw == true)
-            {
-                sw = false;
-                loopCounter++;
-
-                for (int j = 0; j < bottom; j++)
-                {
-                    comparisonCounter++;
-                    if (tempArray[j] > tempArray[j + 1])
-                    {
-                        shiftCounter++;
-                        sw = true;
-                        temp = tempArray[j];
-                        tempArray[j] = tempArray[j + 1];
-                        tempArray[j + 1] = temp;
-                    }
-                }
-                bottom--;
-            }
-            //ending stopwatch
-            stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = Convert.ToString(ts.TotalMilliseconds);
-
-            bubbleShiftOutputLabel.Text = Convert.ToString(shiftCounter);
-            bubbleLoopOutputLabel.Text = Convert.ToString(loopCounter);
-            bubbleComparisonOutputLabel.Text = Convert.ToString(comparisonCounter);
-            bubbleTimerOutput.Text = elapsedTime;
-        }
 
         public void insertion(int[] tempArray)
         {
@@ -196,6 +160,48 @@ namespace Sorting
             e.Graphics.TranslateTransform(30, 20);
             e.Graphics.RotateTransform(90);
             e.Graphics.DrawString("______________________________", font, brush, 0, 0);
+        }
+
+
+
+        public void bubble(int[] tempArray)
+        {
+            int bottom = tempArray.Length - 1;
+            int temp;
+            Boolean sw = true;
+
+            //starting stopwatch
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+
+            while (sw == true)
+            {
+                sw = false;
+                loopCounter++;
+
+                for (int j = 0; j < bottom; j++)
+                {
+                    comparisonCounter++;
+                    if (tempArray[j] > tempArray[j + 1])
+                    {
+                        shiftCounter++;
+                        sw = true;
+                        temp = tempArray[j];
+                        tempArray[j] = tempArray[j + 1];
+                        tempArray[j + 1] = temp;
+                    }
+                }
+                bottom--;
+            }
+            //ending stopwatch
+            stopWatch.Stop();
+            TimeSpan ts = stopWatch.Elapsed;
+            string elapsedTime = Convert.ToString(ts.TotalMilliseconds);
+
+            bubbleShiftOutputLabel.Text = Convert.ToString(shiftCounter);
+            bubbleLoopOutputLabel.Text = Convert.ToString(loopCounter);
+            bubbleComparisonOutputLabel.Text = Convert.ToString(comparisonCounter);
+            bubbleTimerOutput.Text = elapsedTime;
         }
     }
 }
